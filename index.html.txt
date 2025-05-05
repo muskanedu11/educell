@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EduCell — Unlocking Cell Biology</title>
+  <title>EduCe11 â€” Unlocking Cell Biology</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -62,7 +62,7 @@
 <body>
   <header>
     <h1>EduCell</h1>
-    <p>Unlocking Cell Biology — Learn the Basics, Unlock the Future</p>
+    <p>Unlocking Cell Biology â€” Learn the Basics, Unlock the Future</p>
   </header>
   <nav>
     <a href="#">Home</a>
