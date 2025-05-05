@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduCell — Unlocking Cell Biology</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .lesson {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .locked {
+      background: #eee;
+      color: #999;
+      text-align: center;
+      padding: 2rem;
+      border: 2px dashed #ccc;
+      margin-top: 2rem;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EduCell</h1>
+    <p>Unlocking Cell Biology — Learn the Basics, Unlock the Future</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#free">Free Lessons</a>
+    <a href="#premium">Premium</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#about">About</a>
+  </nav>
+  <div class="container">
+    <section id="free">
+      <h2>Free Lessons</h2>
+      <div class="lesson">
+        <h3>What is a Cell?</h3>
+        <p>The cell is the basic structural, functional, and biological unit of all known living organisms.</p>
+      </div>
+      <div class="lesson">
+        <h3>Prokaryotic vs Eukaryotic Cells</h3>
+        <p>Learn the differences in structure and function between prokaryotic and eukaryotic cells.</p>
+      </div>
+    </section>
+
+    <section id="premium">
+      <h2>Premium Lessons</h2>
+      <div class="locked">
+        <p>This content is only available for premium members.</p>
+        <p><a href="#pricing">View Plans & Pricing</a></p>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <ul>
+        <li><strong>Free:</strong> Access to 2 lessons</li>
+        <li><strong>$9.99/month:</strong> Full access to all content, quizzes, and downloads</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Created by Muskan, MSc in Biochemistry and a student of Cannabis Applied Science, to help others master the foundational principles of cell biology.</p>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 EduCell. All rights reserved.</p>
+  </footer>
+</body>
+</html>
